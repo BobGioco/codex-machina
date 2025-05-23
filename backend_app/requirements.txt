@@ -1,0 +1,11 @@
+# Core backend stack
+fastapi
+uvicorn[standard]
+sqlmodel
+psycopg2-binary
+python-dotenv
+
+# Development & Testing
+pytest
+pytest-cov
+httpx
